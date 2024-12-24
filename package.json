@@ -1,0 +1,27 @@
+{
+  "name": "agora-python-with-lumentis",
+  "description": "This is a documentation for the Agora protocol, which is a protocol for a distributed network of large language models (often called agents) talking to each other. This is the Python implementation. ",
+  "version": "0.0.1",
+  "scripts": {
+    "devstart": "next dev -p 5656 & node start.js",
+    "dev": "next dev -p 5656",
+    "build": "next build",
+    "start": "next start"
+  },
+  "type": "module",
+  "keywords": [
+    "agents",
+    "agora-protocol",
+    "agora-python",
+    "llms",
+    "protocol"
+  ],
+  "dependencies": {
+    "agora-python-with-lumentis": ".",
+    "next": "^13.0.0",
+    "nextra": "^2.0.0",
+    "nextra-theme-docs": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
